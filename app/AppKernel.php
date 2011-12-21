@@ -20,10 +20,6 @@ class AppKernel extends Kernel
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
-<<<<<<< HEAD
-=======
-            $bundles[] = new Acme\DemoBundle\AcmeDemoBundle();
->>>>>>> 4a3b1d5a66a9e5ba0c045b23037c1b61470d9b1a
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
