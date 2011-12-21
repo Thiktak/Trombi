@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; font-size: 1em; }
+body { font-size: 12px; font-family: Calibri, Verdana, Arial; }
+
+body { background-color: #aeaeae; }
+
+body > header { background-color: black; padding: 1em; color: white; }
+body > header h1 { font-size: 1.5em; }
+
+body > section { padding: 5em; text-align: center; }
+
+form { margin: auto auto; text-align: left; width: 50%; padding: 2em; border: 1px solid #eaeaea; background-color: White; box-shadow: 0 0 2em White; }
+form .input { padding: 1%; }
+form .input-button { padding: 5px; padding-left: 31%; }
+form label { display: inline-block; width: 25%; text-align: right; margin-right: 5%; }
+form input {}

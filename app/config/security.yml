@@ -22,7 +22,8 @@ security:
                 use_forward: false
                 check_path: /user/login_check
                 failure_path: null
-            logout:       true
+            logout:
+                path: /user/logout
             anonymous:    true
         dev:
             pattern:  ^/(_(profiler|wdt)|css|images|js)/

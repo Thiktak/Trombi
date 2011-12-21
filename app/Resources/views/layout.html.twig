@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{% block title %}Trombinoscope{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" />
+  </head>
+  <body>
+    <header>
+      <h1>Trombinoscope</h1>
+    </header>
+
+    {% if error %}
+      <div class="block-msg block-msg-error">{{ error }}</div>
+    {% endif %}
+    
+    <section>
+      {% block body %}{% endblock %}
+    </section>
+    
+    <!-- INCLUDE JS -->
+    {% block javascripts %}{% endblock %}
+
+  </body>
+</html>
