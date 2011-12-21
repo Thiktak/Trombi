@@ -1,0 +1,15 @@
+# Symfony2 files.
+/app/bootstrap*
+/app/cache/*
+/app/logs/*
+/app/config/parameters.ini
+/web/bundles/
+/web/uploads/
+/vendor/
+
+# OS temp files.
+Thumbs.db
+.DS_Store
+*.sw[a-z]
+*.out
+*~
